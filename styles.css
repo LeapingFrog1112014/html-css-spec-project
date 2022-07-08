@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_buttons{
+    font-size: 18px;
+    padding: 1% 2%;
+    margin: 0px 5%;
+    border: 1px solid black;
+}
+
+.heading {
+    border: 1px solid black;
+    text-align: left;
+    padding: 1%;
+}
+
+
+.navbar_buttons {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.content {
+    display: box;
+    text-align: center;
+    margin: 0% 30%;
+}
+
+.author_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topics {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.extra-links {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.extra-links.links {
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: '-';
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#share {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#article_img {
+    width: 40%;
+    height: auto;
+}
